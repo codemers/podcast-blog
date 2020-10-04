@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { Link } from 'gatsby'
+import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 const GridItem = styled(Link)`
   position: relative;
@@ -35,6 +35,6 @@ const GridItem = styled(Link)`
       transform: scale(1.1);
     }
   }
-`
+`;
 
-export default GridItem
+export default GridItem;
