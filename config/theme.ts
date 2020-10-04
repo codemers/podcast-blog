@@ -1,16 +1,16 @@
 interface ThemeShape {
-  breakpoints: string[]
-  fontSizes: string[]
+  breakpoints: string[];
+  fontSizes: string[];
   colors: {
-    [key: string]: string
-  }
-  space: string[]
+    [key: string]: string;
+  };
+  space: string[];
   fontWeights: {
-    [key: string]: number
-  }
+    [key: string]: number;
+  };
   sidebarWidth: {
-    [key: string]: string
-  }
+    [key: string]: string;
+  };
 }
 
 const theme: ThemeShape = {
@@ -47,6 +47,6 @@ const theme: ThemeShape = {
     big: '375px',
     normal: '320px',
   },
-}
+};
 
-export default theme
+export default theme;
